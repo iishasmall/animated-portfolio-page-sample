@@ -1,0 +1,85 @@
+// use this area for styling the navigation bar
+
+
+
+// nav bar section highlight and active button color
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{
+	color:$nav-text-color;
+    /*background-color: green;*/
+}
+
+
+// nav bar background color and border
+.navbar-inverse {
+    background-color:$navigation-bg-color;
+    
+
+    -webkit-box-shadow: 4px 6px 29px -1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 4px 6px 29px -1px rgba(0,0,0,0.5);
+	box-shadow: 4px 6px 29px -1px rgba(0,0,0,0.5);
+    
+}
+
+// nav bar collapsed border color 
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form{
+	
+	border-color: #ccc;
+}
+
+.navbar-inverse {
+    border-color: #ccc;
+}
+
+// logo area text color
+.navbar-brand{
+	
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+// nav bar li text 
+#navbar ul li > a{
+	font-weight:300;
+	font-size:18px;
+}
+
+.navbar-inverse .navbar-nav>li>a, 
+.navbar-inverse .navbar-text{
+	color:$nav-text-color;
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #ccc;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+	color:#ecd782;
+	
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	
+	background-color:transparent;
+}
+
+
+@media (min-width: 768px) {
+	
+	.navbar-nav {
+    float: right;
+    margin: 0;
+   
+	}
+
+
+}

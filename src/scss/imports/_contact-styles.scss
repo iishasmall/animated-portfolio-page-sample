@@ -1,0 +1,79 @@
+//use this to style the contact section
+.contact-btn{
+	background-color:$icon-bg-circle-color;
+	width:90px;
+	height:90px;
+	-webkit-border-radius: 0px 0px 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	cursor:pointer;
+
+	 -webkit-transition: border-radius 3s; /* Safari */
+    -webkit-transition-delay: 1s; /* Safari */
+}
+
+.contact-btn:hover,.contact-btn:focus{
+	
+	
+	
+}
+
+.contact-subhead{
+	
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+
+@keyframes shapes{
+	
+	0%{
+		background-color:blue;
+	}
+
+	100%{
+		background-color:red;
+	}
+}
+
+.arrow-icon{
+	width:50px;
+	height:50px;
+}
+
+
+.contact-icons{
+	
+	width:50px;
+	height:50px;
+}
+
+.contact-icon-header{
+	font-size:18px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.contact-icon-content{
+	font-size:14px;
+	font-weight:400;
+	text-align:center;
+}
+
+
+.contact-helper-class{
+	
+	display:inline-block; 
+	vertical-align:middle; 
+	height:90%;
+}
+
+
+.contact-icon-shadow{
+	
+	-webkit-box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+}
+
+

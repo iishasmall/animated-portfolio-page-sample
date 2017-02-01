@@ -1,0 +1,49 @@
+
+$icon-font-path: '../fonts/';
+
+@function font-path($path){
+	@return$path;
+}
+@import "imports/rem";
+@import "imports/variables";
+@import "imports/mixins";
+@import "imports/site-fonts";
+@import "imports/bootstrap";
+@import "imports/animations";
+@import "imports/home-styles";
+@import "imports/about-styles";
+@import "imports/work-styles";
+@import "imports/contact-styles";
+@import "imports/skills-styles";
+@import "imports/team-styles";
+@import "imports/navigation";
+@import "imports/basics";
+
+
+
+//Contents
+
+// basics.scss - has styling for the main content and headers of the site
+
+
+// variables.scss - has basic colors for fonts
+
+
+// mixins.scss - has stylings used all over the site 
+
+
+// contact-styles.scss - has styles for the content section 
+
+
+// about-styles.scss - has styles for the about section 
+
+
+// home-styles.scss - has styles for the home section 
+
+// team-styles.scss - has styles for the team section 
+
+
+// skills-styles.scss - has styles for the skills section
+ 
+
+// navigation.scss - has styles for the navigation section 

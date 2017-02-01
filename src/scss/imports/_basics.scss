@@ -1,0 +1,95 @@
+// general styling for the template was put here
+
+html{
+	@include rem-baseline;
+}
+
+body {
+	
+  font-family:'Fira Sans',Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 100px 15px;
+  text-align: center;
+  overflow-:hidden;
+}
+
+
+p{
+	@include rem(font-size,14px);
+	font-weight:400;
+}
+
+.header-style{
+	text-transform:uppercase;
+	@include rem(font-size,$headerSize);
+
+}
+
+#about {
+
+	
+
+}
+
+
+
+#work {
+	
+
+}
+
+
+
+#skills {
+	
+}
+
+.skills-bg-color{
+	
+}
+
+#contact {
+	
+
+}
+
+.header{
+	
+	font-size:40px;
+	font-weight:400;
+	text-transform:uppercase;
+	padding-left:30px;
+	@include text-header-style(white);
+
+}
+
+
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
+
+.active-link{
+	color:red!important;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+//navigation styling 
+.navbar-toggle{
+	border-radius:none;
+}
+
+
+// Usage
+.container {
+  width: 940px;
+  @include center-block();
+}
