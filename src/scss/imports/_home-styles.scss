@@ -2,7 +2,7 @@
 // using this for styling the home section
 
 .home-background{
-	 background: url('../images/placeimg_1000_800_nature.jpg') no-repeat 0px -100px fixed; 
+	 background: url('../images/placeimg_1000_800_nature.jpg') no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -11,12 +11,17 @@
 
   @media (max-width:1024px){
 
-   background: url('../images/placeimg_1000_800_nature.jpg') no-repeat 0px -100px;
+   background: url('../images/placeimg_1000_800_nature.jpg') no-repeat ;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   }
 
   @media(max-width:400px){
-    background: url('../images/placeimg_1000_800_nature.jpg') no-repeat 0px -100px;
+    background: url('../images/placeimg_1000_800_nature.jpg') no-repeat 0px -100px cover;
   }
 
 
