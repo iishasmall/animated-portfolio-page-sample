@@ -12,6 +12,15 @@
     -webkit-transition-delay: 1s; /* Safari */
 }
 
+.contact-section-color{
+	background:$contactSectionBG;
+}
+
+.contact-row-styling{
+	padding-left:20px; 
+	margin-top:-100px;
+}
+
 .contact-btn:hover,.contact-btn:focus{
 	
 	
