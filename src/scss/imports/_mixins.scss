@@ -37,6 +37,11 @@
 }
 
 
+@mixin text-shadow-basic($color){
+  text-shadow: 2px 2px 5px $color;
+}
+
+
 @mixin polaroid($width,$height,$bgColor,$rotation:0deg){
   width:$width;
   height:$height;

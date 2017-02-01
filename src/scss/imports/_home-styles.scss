@@ -8,9 +8,17 @@
 	 background: url('../images/placeimg_1000_800_nature.jpg') no-repeat 0px -100px fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.home-header{
+ @include rem(font-size,50px);
+ @include text-shadow-basic(rgba(0,0,0,.5));
+}
+
+
 
 .home-txt-color{
 
